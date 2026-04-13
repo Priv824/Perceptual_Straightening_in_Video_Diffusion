@@ -1,0 +1,179 @@
+{
+  "config": {
+    "model_id": "runwayml/stable-diffusion-v1-5",
+    "prompt": "a serene mountain lake with moving clouds and gentle wind, cinematic, 4k",
+    "neg_prompt": "blurry, ugly, deformed, bad anatomy",
+    "n_frames": "8",
+    "height": "256",
+    "width": "256",
+    "n_steps": "25",
+    "guidance_scale": "7.5",
+    "base_seed": "42",
+    "temporal_noise_mix": "0.65",
+    "percept_n_scales": "3",
+    "percept_n_orient": "4",
+    "run_psg": "True",
+    "psg_lambda": "0.5",
+    "psg_n_refine": "5",
+    "psg_start_step": "8",
+    "run_mpes": "True",
+    "mpes_k": "2",
+    "mpes_fusion": "pixel",
+    "run_degree_ablation": "True",
+    "degree_lambdas": "[0.0, 0.1, 0.3, 0.5, 1.0, 2.0]",
+    "run_mpes_ablation": "True",
+    "mpes_k_values": "[1, 2, 3]",
+    "run_timing_ablation": "True",
+    "timing_start_steps": "[0, 5, 8, 12, 18]",
+    "run_feature_ablation": "True",
+    "run_combined": "True",
+    "results_dir": "experiment-results",
+    "fps": "4"
+  },
+  "results": {
+    "Baseline": {
+      "curvature": 2.182583808898926,
+      "straightness": 30.526199620279858,
+      "temporal_lpips": 0.35364052440438953,
+      "temporal_mse": 0.1930349139230592
+    },
+    "PSG": {
+      "curvature": 2.1053576469421387,
+      "straightness": 32.984384702567446,
+      "temporal_lpips": 0.3616330070155008,
+      "temporal_mse": 0.25665315453495297
+    },
+    "MPES K1_pixel": {
+      "curvature": 2.182583808898926,
+      "straightness": 30.526199620279858,
+      "temporal_lpips": 0.35364052440438953,
+      "temporal_mse": 0.1930349139230592
+    },
+    "MPES K1_latent": {
+      "curvature": 2.182583808898926,
+      "straightness": 30.526199620279858,
+      "temporal_lpips": 0.35364052440438953,
+      "temporal_mse": 0.1930349139230592
+    },
+    "MPES K2_pixel": {
+      "curvature": 2.1042022705078125,
+      "straightness": 33.021161476698424,
+      "temporal_lpips": 0.43295787487711224,
+      "temporal_mse": 0.10213607443230492
+    },
+    "MPES K2_latent": {
+      "curvature": 2.1344337463378906,
+      "straightness": 32.05886371363441,
+      "temporal_lpips": 0.4013979307242802,
+      "temporal_mse": 0.12693716532417706
+    },
+    "MPES K3_pixel": {
+      "curvature": 2.1597352027893066,
+      "straightness": 31.253493341300974,
+      "temporal_lpips": 0.37643530113356455,
+      "temporal_mse": 0.05299860717994826
+    },
+    "MPES K3_latent": {
+      "curvature": 2.181727409362793,
+      "straightness": 30.55345966416728,
+      "temporal_lpips": 0.32626812372888836,
+      "temporal_mse": 0.07578139805368014
+    },
+    "PSG+MPES": {
+      "curvature": 2.0838704109191895,
+      "straightness": 33.66834466785436,
+      "temporal_lpips": 0.43494814208575655,
+      "temporal_mse": 0.1208110015307154
+    }
+  },
+  "degree_ablation": {
+    "0.0": {
+      "curvature": 2.182583808898926,
+      "straightness": 30.526199620279858,
+      "temporal_lpips": 0.35364052440438953,
+      "temporal_mse": 0.1930349139230592
+    },
+    "0.1": {
+      "curvature": 2.1212880611419678,
+      "straightness": 32.47730386948662,
+      "temporal_lpips": 0.36228130970682415,
+      "temporal_mse": 0.25759308678763254
+    },
+    "0.3": {
+      "curvature": 2.114896297454834,
+      "straightness": 32.680760026663144,
+      "temporal_lpips": 0.36290098088128225,
+      "temporal_mse": 0.2572241702250072
+    },
+    "0.5": {
+      "curvature": 2.1111230850219727,
+      "straightness": 32.80086510866829,
+      "temporal_lpips": 0.3638900944164821,
+      "temporal_mse": 0.2605068672980581
+    },
+    "1.0": {
+      "curvature": 2.0896339416503906,
+      "straightness": 33.48488578674783,
+      "temporal_lpips": 0.3642867548125131,
+      "temporal_mse": 0.2598287505762918
+    },
+    "2.0": {
+      "curvature": 2.0392935276031494,
+      "straightness": 35.08727093333005,
+      "temporal_lpips": 0.3614372568471091,
+      "temporal_mse": 0.2567619319472994
+    }
+  },
+  "timing_ablation": {
+    "0": {
+      "curvature": 2.042616844177246,
+      "straightness": 34.981486481284705,
+      "temporal_lpips": 0.34771308302879333,
+      "temporal_mse": 0.279914921947888
+    },
+    "5": {
+      "curvature": 2.110646963119507,
+      "straightness": 32.81602053952663,
+      "temporal_lpips": 0.37491834589413237,
+      "temporal_mse": 0.3240611957652228
+    },
+    "8": {
+      "curvature": 2.106228828430176,
+      "straightness": 32.9566541345372,
+      "temporal_lpips": 0.36312889627047945,
+      "temporal_mse": 0.25772686089788166
+    },
+    "12": {
+      "curvature": 2.1497879028320312,
+      "straightness": 31.57012573302461,
+      "temporal_lpips": 0.36609027428286417,
+      "temporal_mse": 0.2591302331004824
+    },
+    "18": {
+      "curvature": 2.150815486907959,
+      "straightness": 31.53741671599932,
+      "temporal_lpips": 0.3692684258733477,
+      "temporal_mse": 0.250957972237042
+    }
+  },
+  "feature_ablation": {
+    "pixel": {
+      "curvature": 2.132768154144287,
+      "straightness": 32.111881159791864,
+      "temporal_lpips": 0.3640157495226179,
+      "temporal_mse": 0.26017363582338604
+    },
+    "retina": {
+      "curvature": 2.1260926723480225,
+      "straightness": 32.324368344870955,
+      "temporal_lpips": 0.36257227829524447,
+      "temporal_mse": 0.2584494394915445
+    },
+    "v1": {
+      "curvature": 2.1092638969421387,
+      "straightness": 32.86004490327691,
+      "temporal_lpips": 0.3611033260822296,
+      "temporal_mse": 0.25696039519139696
+    }
+  }
+}
