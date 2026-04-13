@@ -2,3 +2,5 @@ Datasets/
 __pycache__/
 ReStrav/
 hf-access-token.txt
+models/
+author-kit-CVPR2026-v1-latex-/
