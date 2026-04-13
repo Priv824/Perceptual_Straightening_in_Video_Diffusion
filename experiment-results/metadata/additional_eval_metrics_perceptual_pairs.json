@@ -1,0 +1,56 @@
+[
+  {
+    "pair": "B",
+    "method": "baseline",
+    "mean_ssim": 0.7071854426310613,
+    "mean_ptd": 12.159922746511606,
+    "straightness": 0.9326753616333008,
+    "num_frames": 14,
+    "source_path": "experiment-results\\perceptual_poly_pair_B\\baseline.gif"
+  },
+  {
+    "pair": "B",
+    "method": "guided",
+    "mean_ssim": 0.7071854426310613,
+    "mean_ptd": 12.159922746511606,
+    "straightness": 0.9326753616333008,
+    "num_frames": 14,
+    "source_path": "experiment-results\\perceptual_poly_pair_B\\guided.gif"
+  },
+  {
+    "pair": "B",
+    "method": "guided_degree_2",
+    "mean_ssim": 0.7071854426310613,
+    "mean_ptd": 12.159922746511606,
+    "straightness": 0.9326753616333008,
+    "num_frames": 14,
+    "source_path": "experiment-results\\perceptual_poly_pair_B\\guided_degree_2.gif"
+  },
+  {
+    "pair": "B",
+    "method": "guided_degree_3",
+    "mean_ssim": 0.7071854426310613,
+    "mean_ptd": 12.159922746511606,
+    "straightness": 0.9326753616333008,
+    "num_frames": 14,
+    "source_path": "experiment-results\\perceptual_poly_pair_B\\guided_degree_3.gif"
+  },
+  {
+    "pair": "B",
+    "method": "guided_degree_4",
+    "mean_ssim": 0.7071854426310613,
+    "mean_ptd": 12.159922746511606,
+    "straightness": 0.9326753616333008,
+    "num_frames": 14,
+    "source_path": "experiment-results\\perceptual_poly_pair_B\\guided_degree_4.gif"
+  },
+  {
+    "pair": "B",
+    "method": "guided_degree_5",
+    "mean_ssim": 0.7071854426310613,
+    "mean_ptd": 12.159922746511606,
+    "straightness": 0.9326753616333008,
+    "num_frames": 14,
+    "source_path": "experiment-results\\perceptual_poly_pair_B\\guided_degree_5.gif"
+  }
+]

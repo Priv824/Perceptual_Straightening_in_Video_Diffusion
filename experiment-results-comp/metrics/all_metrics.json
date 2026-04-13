@@ -1,0 +1,122 @@
+[
+  {
+    "ae": "sd15",
+    "degree": 2,
+    "mean_ssim": 0.991358,
+    "mean_ptd": 4.0737,
+    "latent_straightness": 0.956249,
+    "latent_curvature_smoothed": 0.222929,
+    "latent_curvature_raw": 1.935428,
+    "gif_path": "experiment-results-comp\\gifs\\sd15_poly_deg2.gif"
+  },
+  {
+    "ae": "sd15",
+    "degree": 3,
+    "mean_ssim": 0.985466,
+    "mean_ptd": 4.962,
+    "latent_straightness": 0.922871,
+    "latent_curvature_smoothed": 0.39486,
+    "latent_curvature_raw": 1.935428,
+    "gif_path": "experiment-results-comp\\gifs\\sd15_poly_deg3.gif"
+  },
+  {
+    "ae": "sd15",
+    "degree": 4,
+    "mean_ssim": 0.974693,
+    "mean_ptd": 6.6621,
+    "latent_straightness": 0.813262,
+    "latent_curvature_smoothed": 0.580323,
+    "latent_curvature_raw": 1.935428,
+    "gif_path": "experiment-results-comp\\gifs\\sd15_poly_deg4.gif"
+  },
+  {
+    "ae": "sd15",
+    "degree": 5,
+    "mean_ssim": 0.962432,
+    "mean_ptd": 7.467,
+    "latent_straightness": 0.547781,
+    "latent_curvature_smoothed": 0.767557,
+    "latent_curvature_raw": 1.935428,
+    "gif_path": "experiment-results-comp\\gifs\\sd15_poly_deg5.gif"
+  },
+  {
+    "ae": "sdxl",
+    "degree": 2,
+    "mean_ssim": 0.989371,
+    "mean_ptd": 4.5552,
+    "latent_straightness": 0.957588,
+    "latent_curvature_smoothed": 0.221744,
+    "latent_curvature_raw": 2.025327,
+    "gif_path": "experiment-results-comp\\gifs\\sdxl_poly_deg2.gif"
+  },
+  {
+    "ae": "sdxl",
+    "degree": 3,
+    "mean_ssim": 0.982034,
+    "mean_ptd": 5.7627,
+    "latent_straightness": 0.926454,
+    "latent_curvature_smoothed": 0.398278,
+    "latent_curvature_raw": 2.025327,
+    "gif_path": "experiment-results-comp\\gifs\\sdxl_poly_deg3.gif"
+  },
+  {
+    "ae": "sdxl",
+    "degree": 4,
+    "mean_ssim": 0.971576,
+    "mean_ptd": 7.5523,
+    "latent_straightness": 0.792834,
+    "latent_curvature_smoothed": 0.593565,
+    "latent_curvature_raw": 2.025327,
+    "gif_path": "experiment-results-comp\\gifs\\sdxl_poly_deg4.gif"
+  },
+  {
+    "ae": "sdxl",
+    "degree": 5,
+    "mean_ssim": 0.958519,
+    "mean_ptd": 8.6373,
+    "latent_straightness": 0.512826,
+    "latent_curvature_smoothed": 0.780176,
+    "latent_curvature_raw": 2.025327,
+    "gif_path": "experiment-results-comp\\gifs\\sdxl_poly_deg5.gif"
+  },
+  {
+    "ae": "pixart",
+    "degree": 2,
+    "mean_ssim": 0.991591,
+    "mean_ptd": 3.8186,
+    "latent_straightness": 0.956249,
+    "latent_curvature_smoothed": 0.222929,
+    "latent_curvature_raw": 1.935428,
+    "gif_path": "experiment-results-comp\\gifs\\pixart_poly_deg2.gif"
+  },
+  {
+    "ae": "pixart",
+    "degree": 3,
+    "mean_ssim": 0.985855,
+    "mean_ptd": 4.8215,
+    "latent_straightness": 0.922871,
+    "latent_curvature_smoothed": 0.39486,
+    "latent_curvature_raw": 1.935428,
+    "gif_path": "experiment-results-comp\\gifs\\pixart_poly_deg3.gif"
+  },
+  {
+    "ae": "pixart",
+    "degree": 4,
+    "mean_ssim": 0.975361,
+    "mean_ptd": 6.5988,
+    "latent_straightness": 0.813262,
+    "latent_curvature_smoothed": 0.580323,
+    "latent_curvature_raw": 1.935428,
+    "gif_path": "experiment-results-comp\\gifs\\pixart_poly_deg4.gif"
+  },
+  {
+    "ae": "pixart",
+    "degree": 5,
+    "mean_ssim": 0.962539,
+    "mean_ptd": 7.4966,
+    "latent_straightness": 0.547781,
+    "latent_curvature_smoothed": 0.767557,
+    "latent_curvature_raw": 1.935428,
+    "gif_path": "experiment-results-comp\\gifs\\pixart_poly_deg5.gif"
+  }
+]

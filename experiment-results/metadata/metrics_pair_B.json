@@ -1,0 +1,22 @@
+{
+  "pair_id": "B",
+  "pair_name": "sd15_style",
+  "paper_evidence": "Section VII future generalization mentions Stable Diffusion 1.5.",
+  "vae_meta": {
+    "pair_name": "sd15_style",
+    "loaded_from": {
+      "model_id": "stabilityai/sd-vae-ft-mse",
+      "subfolder": null
+    },
+    "attempts": [],
+    "fallback_used": false,
+    "active_vae": "replacement"
+  },
+  "runs": {
+    "baseline": {},
+    "guided": {},
+    "degree_sweep": {},
+    "mpes": {}
+  },
+  "error": "Input type (struct c10::Half) and bias type (float) should be the same"
+}

@@ -1,0 +1,22 @@
+{
+  "pair_id": "A",
+  "pair_name": "sdxl_style",
+  "paper_evidence": "Section III baseline uses SDXL via VISION-XL.",
+  "vae_meta": {
+    "pair_name": "sdxl_style",
+    "loaded_from": {
+      "model_id": "madebyollin/sdxl-vae-fp16-fix",
+      "subfolder": null
+    },
+    "attempts": [],
+    "fallback_used": false,
+    "active_vae": "replacement"
+  },
+  "runs": {
+    "baseline": {},
+    "guided": {},
+    "degree_sweep": {},
+    "mpes": {}
+  },
+  "error": "Input type (struct c10::Half) and bias type (float) should be the same"
+}

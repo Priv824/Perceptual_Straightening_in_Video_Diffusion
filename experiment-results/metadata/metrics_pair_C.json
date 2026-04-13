@@ -1,0 +1,21 @@
+{
+  "pair_id": "C",
+  "pair_name": "pixart_style",
+  "paper_evidence": "Section VII future generalization mentions PixArt (and Consistency Models).",
+  "vae_meta": {
+    "pair_name": "pixart_style",
+    "loaded_from": {
+      "model_id": "PixArt-alpha/pixart_sigma_sdxlvae_T5_diffusers",
+      "subfolder": "vae"
+    },
+    "attempts": [],
+    "fallback_used": false,
+    "active_vae": "replacement"
+  },
+  "runs": {
+    "baseline": {},
+    "guided": {},
+    "degree_sweep": {},
+    "mpes": {}
+  }
+}
