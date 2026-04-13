@@ -1,0 +1,58 @@
+[
+  {
+    "method": "baseline",
+    "mean_ssim": 0.7104449409704942,
+    "mean_ptd": 12.389176882230318,
+    "straightness": 0.9326062798500061,
+    "num_frames": 14,
+    "source_path": "./experiment-results\\videos\\base_video.gif"
+  },
+  {
+    "method": "guided",
+    "mean_ssim": 0.7000280481118423,
+    "mean_ptd": 13.18112065241887,
+    "straightness": 0.6037411093711853,
+    "num_frames": 14,
+    "source_path": "./experiment-results\\videos\\text_to_guided_video.gif"
+  },
+  {
+    "method": "mpes",
+    "mean_ssim": 0.7523571986418504,
+    "mean_ptd": 9.428729864267202,
+    "straightness": 0.9482505917549133,
+    "num_frames": 14,
+    "source_path": "./experiment-results\\videos\\mpes_video.gif"
+  },
+  {
+    "method": "degree_2",
+    "mean_ssim": 0.7596873457615192,
+    "mean_ptd": 11.022433060866137,
+    "straightness": 0.9390122294425964,
+    "num_frames": 14,
+    "source_path": "./experiment-results\\videos\\kernel_degrees\\regression_degree_2.gif"
+  },
+  {
+    "method": "degree_3",
+    "mean_ssim": 0.7000280481118423,
+    "mean_ptd": 13.18112065241887,
+    "straightness": 0.6037411093711853,
+    "num_frames": 14,
+    "source_path": "./experiment-results\\videos\\kernel_degrees\\regression_degree_3.gif"
+  },
+  {
+    "method": "degree_4",
+    "mean_ssim": 0.7096510988015395,
+    "mean_ptd": 12.420347653902494,
+    "straightness": 0.9312625527381897,
+    "num_frames": 14,
+    "source_path": "./experiment-results\\videos\\kernel_degrees\\regression_degree_4.gif"
+  },
+  {
+    "method": "degree_5",
+    "mean_ssim": 0.6677115742976849,
+    "mean_ptd": 14.822761535644531,
+    "straightness": 0.925550639629364,
+    "num_frames": 14,
+    "source_path": "./experiment-results\\videos\\kernel_degrees\\regression_degree_5.gif"
+  }
+]
